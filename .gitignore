@@ -1,0 +1,16 @@
+# Ambiente Virtual (Nunca suba a pasta venv)
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit e segredos locais
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Banco de dados local do Chroma
+chroma_db/
+*
